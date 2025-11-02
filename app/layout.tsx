@@ -3,7 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 
 export const metadata: Metadata = {
-  title: "APITalks - Conversational API Explorer",
+  title: "API-Talks - Conversational API Explorer",
   description: "AI-powered tool that lets developers talk to APIs instead of reading documentation",
 };
 

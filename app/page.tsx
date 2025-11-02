@@ -17,7 +17,7 @@ export default function Home() {
             </svg>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-1 md:mb-2 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
-            APITalks
+            API-Talks
           </h1>
           <p className="text-base md:text-lg text-slate-600 dark:text-slate-300 font-medium mb-1">
             Your AI-Powered API Assistant
