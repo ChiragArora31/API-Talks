@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { RAGService } from '@/lib/rag-service';
 import { CodeGenerator } from '@/lib/code-generator';
 import { LLMService } from '@/lib/llm-service';
+import { ApiDocSection } from '@/lib/documentation-fetcher';
 
 const ragService = new RAGService();
 const codeGenerator = new CodeGenerator();
