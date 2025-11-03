@@ -346,7 +346,7 @@ export default function ChatInterface() {
         {/* Messages Area */}
         <div className="flex-1 overflow-y-auto px-4 md:px-6 py-4 md:py-6 bg-gradient-to-b from-white to-slate-50/30 dark:from-[#0f0f0f] dark:to-slate-950/30 min-h-0">
           {messages.length === 0 ? (
-            <div className="flex flex-col items-center justify-center h-full text-center px-4 py-4">
+            <div className="flex flex-col items-center text-center px-4 pt-8 pb-6 md:pt-12 md:pb-8">
               <div className="mb-4 md:mb-6 animate-fade-in">
                 <div className="w-12 h-12 md:w-14 md:h-14 mx-auto mb-3 rounded-xl bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center shadow-lg">
                   <svg className="w-6 h-6 md:w-7 md:h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
